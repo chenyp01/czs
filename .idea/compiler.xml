@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="czs-manage" />
+        <module name="czs-manage-process" />
+        <module name="manage" />
+        <module name="sconfig" />
+        <module name="seureka" />
+        <module name="szuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="czs" target="1.8" />
+      <module name="czs-manage" target="1.8" />
+      <module name="czs-manage-process" target="1.8" />
+      <module name="manage" target="1.8" />
+      <module name="sconfig" target="1.8" />
+      <module name="seureka" target="1.8" />
+      <module name="szuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

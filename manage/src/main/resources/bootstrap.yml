@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: czs-manage
+  cloud:
+    config:
+      discovery:
+        service-id: CZS-CONFIG
+        enabled: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9901/eureka

@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: czs-config
+  profiles:
+      # 使用本地配置文件
+      # active: native
+      # 默认git
+      active: git
+  cloud:
+    config:
+      server:
+        # 本地配置
+        native:
+          search-locations: classpath:/config
+        # git配置
+        git:
+          uri: https://github.com/chenyp01/czs-config.git
+          username: chenyp01
+          password: yunpeng7891
+          timeout: 5
+          default-label: master
+server:
+  port: 9902
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9901/eureka

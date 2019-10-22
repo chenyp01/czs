@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/czs.iml" filepath="$PROJECT_DIR$/czs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/czs-manage-process/czs-manage-process.iml" filepath="$PROJECT_DIR$/czs-manage-process/czs-manage-process.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manage/manage.iml" filepath="$PROJECT_DIR$/manage/manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sconfig/sconfig.iml" filepath="$PROJECT_DIR$/sconfig/sconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seureka/seureka.iml" filepath="$PROJECT_DIR$/seureka/seureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/szuul/szuul.iml" filepath="$PROJECT_DIR$/szuul/szuul.iml" />
+    </modules>
+  </component>
+</project>
